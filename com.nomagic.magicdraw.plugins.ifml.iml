@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" name="CAE-first" level="application" />
+    <orderEntry type="library" name="CAE-for-compile" level="application" />
+    <orderEntry type="library" name="CAE-for-logging" level="application" />
+    <orderEntry type="library" name="CAE-graphics" level="application" />
+    <orderEntry type="library" name="CAE-patch" level="application" />
+    <orderEntry type="library" name="CAE-webservice" level="application" />
+    <orderEntry type="library" name="Cameo-17.0.4-rest" level="application" />
+    <orderEntry type="library" name="guava-14.0.1" level="project" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="guava-14.0.1" level="project" />
+  </component>
+</module>
+

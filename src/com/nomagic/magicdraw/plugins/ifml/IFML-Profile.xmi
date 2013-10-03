@@ -1,0 +1,1400 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20110701"
+    xmlns:xmi="http://www.omg.org/spec/XMI/20110701"
+    xmlns:mofext="http://www.omg.org/spec/MOF/20110701">
+    <uml:Profile xmi:id="IFML-Profile" xmi:uuid="725A27D7-D4CD-431B-989A-206A17ADFAF8"
+        xmi:type="uml:Profile">
+        <metamodelReference xmi:idref="IFML-Profile-packageImport"/>
+        <packageImport xmi:id="IFML-Profile-packageImport"
+            xmi:uuid="725A27D7-D4CD-444D-93DE-206A91A34C54" xmi:type="uml:PackageImport">
+            <importedPackage href="http://www.omg.org/spec/UML/20110701/UML.xmi#_0"/>
+        </packageImport>
+        <packagedElement xmi:id="IFML-Profile-Extensions"
+            xmi:uuid="725A27D7-D4CD-4EE8-9472-206A80D93AA3" xmi:type="uml:Profile">
+            <metamodelReference xmi:idref="IFML-Profile-Extensions-packageImport"/>
+            <packageImport xmi:id="IFML-Profile-Extensions-packageImport"
+                xmi:uuid="725A27D7-D4CD-4CD2-90D4-206A2C812471" xmi:type="uml:PackageImport">
+                <importedPackage href="http://www.omg.org/spec/UML/20110701/UML.xmi#_0"/>
+            </packageImport>
+            <packagedElement xmi:id="IFML-Profile-Extensions-ValidationRule"
+                xmi:uuid="725A27D7-D4CD-4D9E-96EF-206A12CAE593" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-ValidationRule-generalization"
+                    xmi:uuid="725A27D7-D4CD-478E-98AE-206A8450F259" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-Constraint"/>
+                </generalization>
+                <ownedAttribute
+                    xmi:id="IFML-Profile-Extensions-ValidationRule-base_OpaqueExpression"
+                    xmi:uuid="725A27D7-D4CD-478F-9767-206AC398FCFA" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#OpaqueExpression"/>
+                    <name>base_OpaqueExpression</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-10"/>
+                </ownedAttribute>
+                <name>ValidationRule</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-2"
+                xmi:uuid="725A27D7-D4CD-4DD9-9759-206A2A0B2B87" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-List-base_Component"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-2-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-2-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-2-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-44B5-9077-206A0A753139" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-2-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4475-9C84-206ABEE389FB"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_List</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-List"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-2"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-3"
+                xmi:uuid="725A27D7-D4CD-4520-9D97-206A6E23D788" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-Slot-base_Classifier"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-3-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-3-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-3-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4CE8-9CB0-206AA23AF6C8" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-3-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4F31-98FA-206A4B87AB00"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Slot</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-Slot"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-3"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-4"
+                xmi:uuid="725A27D7-D4CD-4FEF-96A2-206A88FF1D4F" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-Field-base_Component"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-4-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-4-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-4-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-48BC-993D-206A23272855" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-4-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-40A9-9245-206A8C852994"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Field</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-Field"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-4"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-5"
+                xmi:uuid="725A27D7-D4CD-4C39-997E-206A6D9ACDBE" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-UserRole-base_Actor"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-5-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-5-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-5-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4EBB-961A-206AA0C7E622" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-5-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-447E-9028-206A40BD389D"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-UserRole"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-5"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-Field"
+                xmi:uuid="725A27D7-D4CD-4204-90FD-206A7F762023" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-Field-generalization"
+                    xmi:uuid="725A27D7-D4CD-49B0-9284-206AC3C68804" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewComponentPart"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-Field-base_Component"
+                    xmi:uuid="725A27D7-D4CD-498F-946A-206A20F67CB0" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Component"/>
+                    <name>base_Component</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-4"/>
+                </ownedAttribute>
+                <name>Field</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-Position"
+                xmi:uuid="725A27D7-D4CD-47C3-9595-206AD53E2B41" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-Position-generalization"
+                    xmi:uuid="725A27D7-D4CD-4C09-9E63-206A13CBE217" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ContextDimension"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-Position-base_Actor"
+                    xmi:uuid="725A27D7-D4CD-4F05-9A1A-206A17498EB4" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Actor"/>
+                    <name>base_Actor</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-14"/>
+                </ownedAttribute>
+                <name>Position</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-SelectEvent"
+                xmi:uuid="725A27D7-D4CD-42A6-9BA8-206A5B96F2AA" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-SelectEvent-generalization-1"
+                    xmi:uuid="725A27D7-D4CD-4D19-9132-206ACBB19031" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-Event"/>
+                </generalization>
+                <generalization xmi:id="IFML-Profile-Extensions-SelectEvent-generalization-2"
+                    xmi:uuid="725A27D7-D4CD-430E-9B98-206AB768C100" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewElementEvent"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-SelectEvent-base_Signal"
+                    xmi:uuid="725A27D7-D4CD-4B1D-9A8A-206AB602AE4E" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Signal"/>
+                    <name>base_Signal</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-20"/>
+                </ownedAttribute>
+                <name>SelectEvent</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-List"
+                xmi:uuid="725A27D7-D4CD-4748-94D8-206A413C7885" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-List-generalization"
+                    xmi:uuid="725A27D7-D4CD-4E74-9345-206AC38DC8C0" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewComponent"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-List-base_Component"
+                    xmi:uuid="725A27D7-D4CD-4010-9578-206AAF324D41" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Component"/>
+                    <name>base_Component</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-2"/>
+                </ownedAttribute>
+                <name>List</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-10"
+                xmi:uuid="725A27D7-D4CD-43C2-9090-206ADFF1440B" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-ValidationRule-base_OpaqueExpression"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-10-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-10-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-10-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4076-9591-206ACBE28DA3" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-10-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-40BA-93F0-206A7DEFABB4"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ValidationRule</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-ValidationRule"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-10"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-SubmitEvent"
+                xmi:uuid="725A27D7-D4CD-4321-9B02-206A24460409" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-SubmitEvent-generalization-1"
+                    xmi:uuid="725A27D7-D4CD-457A-98B2-206A29DD8E75" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-Event"/>
+                </generalization>
+                <generalization xmi:id="IFML-Profile-Extensions-SubmitEvent-generalization-2"
+                    xmi:uuid="725A27D7-D4CD-40BC-9941-206A2733BDDC" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewElementEvent"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-SubmitEvent-base_Signal"
+                    xmi:uuid="725A27D7-D4CD-4617-90EB-206AC93F0C1E" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Signal"/>
+                    <name>base_Signal</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-12"/>
+                </ownedAttribute>
+                <name>SubmitEvent</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-12"
+                xmi:uuid="725A27D7-D4CD-44E9-9D5C-206AF84EE1EE" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-SubmitEvent-base_Signal"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-12-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-12-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-12-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4BE5-9812-206A0B286EB9" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-12-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4070-914A-206AA5829006"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_SubmitEvent</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-SubmitEvent"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-12"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-Device"
+                xmi:uuid="725A27D7-D4CD-449E-931B-206AF9C4C594" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-Device-generalization"
+                    xmi:uuid="725A27D7-D4CD-4793-94CD-206A486C495E" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ContextDimension"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-Device-base_Actor"
+                    xmi:uuid="725A27D7-D4CD-4E5C-9F73-206AC0DF1A63" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Actor"/>
+                    <name>base_Actor</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-18"/>
+                </ownedAttribute>
+                <name>Device</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-14"
+                xmi:uuid="725A27D7-D4CD-4486-97FF-206AC6A41C75" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-Position-base_Actor"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-14-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-14-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-14-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4A49-92CF-206ABF123603" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-14-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4BFC-9CCB-206A09E9D890"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Position</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-Position"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-14"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-UserRole"
+                xmi:uuid="725A27D7-D4CD-4AFA-9173-206AD39A5295" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-UserRole-generalization"
+                    xmi:uuid="725A27D7-D4CD-4517-905B-206A6261C710" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ContextDimension"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-UserRole-base_Actor"
+                    xmi:uuid="725A27D7-D4CD-4440-9AA7-206A7DD06DC9" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Actor"/>
+                    <name>base_Actor</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-5"/>
+                </ownedAttribute>
+                <name>UserRole</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-16"
+                xmi:uuid="725A27D7-D4CD-4449-938E-206A3DC0DB34" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-Form-base_Component"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-16-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-16-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-16-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4982-9B4F-206AB3BDF95A" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-16-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4789-92B0-206AD0C7330C"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Entry</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-Form"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-16"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-Slot"
+                xmi:uuid="725A27D7-D4CD-4037-9770-206A1B47B661" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-Slot-base_Classifier"
+                    xmi:uuid="725A27D7-D4CD-4F85-9EE0-206AB88A775D" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Classifier"/>
+                    <name>base_Classifier</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-3"/>
+                </ownedAttribute>
+                <name>Slot</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-18"
+                xmi:uuid="725A27D7-D4CD-4066-90B5-206A724B7916" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-Device-base_Actor"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-18-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-18-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-18-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4FE2-9BEC-206A484F28F7" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-18-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-477F-954F-206A8F69EF8A"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Device</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-Device"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-18"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-Form"
+                xmi:uuid="725A27D7-D4CD-4862-90EC-206A552DD306" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-Form-generalization"
+                    xmi:uuid="725A27D7-D4CD-46A1-990A-206A7C77EC52" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewComponent"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-Form-base_Component"
+                    xmi:uuid="725A27D7-D4CD-4FA4-9440-206A5A8971D9" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Component"/>
+                    <name>base_Component</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-16"/>
+                </ownedAttribute>
+                <name>Form</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-20"
+                xmi:uuid="725A27D7-D4CD-496C-97F3-206AB334B03D" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-SelectEvent-base_Signal"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-20-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-20-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-20-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4AC6-90A2-206ADCFC3228" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-20-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4070-9BAB-206A4F01BBF2"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_SelectEvent</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-SelectEvent"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-20"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-Details"
+                xmi:uuid="725A27D7-D4CD-437A-988B-206A26A9A1F0" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-Details-generalization"
+                    xmi:uuid="725A27D7-D4CD-43F8-9BBB-206A738CA254" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewComponent"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-Details-base_Component"
+                    xmi:uuid="725A27D7-D4CD-48B5-9565-206A4543F0DC" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Component"/>
+                    <name>base_Component</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-22"/>
+                </ownedAttribute>
+                <name>Details</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-22"
+                xmi:uuid="725A27D7-D4CD-4AFC-9490-206A103339A8" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-Details-base_Component"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-22-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-22-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-22-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4C52-9494-206A39930127" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-22-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4109-9CEB-206A57B80F66"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Details</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-Details"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-22"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-Window"
+                xmi:uuid="725A27D7-D4CD-421F-957F-206AC0D97949" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Extensions-Window-generalization"
+                    xmi:uuid="725A27D7-D4CD-499D-9367-206AE69429A1" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewContainer"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-Window-base_Component"
+                    xmi:uuid="725A27D7-D4CD-42BA-9518-206AF2E80406" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Component"/>
+                    <name>base_Component</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-24"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-Window-isNewWindow"
+                    xmi:uuid="725A27D7-D4CD-46F1-9C16-206A37552092" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#Boolean"/>
+                    <name>isNewWindow</name>
+                    <visibility>public</visibility>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Extensions-Window-isModal"
+                    xmi:uuid="725A27D7-D4CD-46ED-9469-206A493DD8FC" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#Boolean"/>
+                    <name>isModal</name>
+                    <visibility>public</visibility>
+                </ownedAttribute>
+                <name>Window</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Extensions-packagedElement-24"
+                xmi:uuid="725A27D7-D4CD-4B18-9C13-206ABF5002C1" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Extensions-Window-base_Component"/>
+                <memberEnd xmi:idref="IFML-Profile-Extensions-packagedElement-24-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Extensions-packagedElement-24-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Extensions-packagedElement-24-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-42B6-9B99-206AEA149548" xmi:type="uml:ExtensionEnd">
+                    <lowerValue
+                        xmi:id="IFML-Profile-Extensions-packagedElement-24-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-473C-96AA-206A77DF6B47"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Window</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Extensions-Window"/>
+                    <association xmi:idref="IFML-Profile-Extensions-packagedElement-24"/>
+                </ownedEnd>
+            </packagedElement>
+            <name>Extensions</name>
+        </packagedElement>
+        <packagedElement xmi:id="IFML-Profile-Core" xmi:uuid="725A27D7-D4CD-41A0-996F-206A034F52AC"
+            xmi:type="uml:Profile">
+            <metamodelReference xmi:idref="IFML-Profile-Core-packageImport"/>
+            <packageImport xmi:id="IFML-Profile-Core-packageImport"
+                xmi:uuid="725A27D7-D4CD-4FF3-9BA2-206A2055DC52" xmi:type="uml:PackageImport">
+                <importedPackage href="http://www.omg.org/spec/UML/20110701/UML.xmi#_0"/>
+            </packageImport>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-1"
+                xmi:uuid="725A27D7-D4CD-467B-9B71-206AE7BE7FA8" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-NavigationFlow-base_Message"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-1-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-1-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-1-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4BD7-93D6-206A517CB74C" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-1-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4E29-9AE2-206A457A2429"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_NavigationFlow</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-NavigationFlow"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-1"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-2"
+                xmi:uuid="725A27D7-D4CD-4280-9C85-206A9C51471F" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-ContentBinding-base_Classifier"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-2-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-2-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-2-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-42E2-914B-206A24B5F35C" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-2-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-465A-92EC-206A398C5B93"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ContentBinding</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-ContentBinding"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-2"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Expression"
+                xmi:uuid="725A27D7-D4CD-42F0-9800-206A68E1C7ED" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-Expression-base_OpaqueExpression"
+                    xmi:uuid="725A27D7-D4CD-4D22-9FA9-206AE9BDA292" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#OpaqueExpression"/>
+                    <name>base_OpaqueExpression</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-35"/>
+                </ownedAttribute>
+                <name>Expression</name>
+                <isAbstract>true</isAbstract>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ViewComponentPart"
+                xmi:uuid="725A27D7-D4CD-4577-9F4F-206A01B6EE93" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-ViewComponentPart-generalization"
+                    xmi:uuid="725A27D7-D4CD-46B3-9029-206A58054E7D" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-InteractionFlowElement"/>
+                </generalization>
+                <name>ViewComponentPart</name>
+                <isAbstract>true</isAbstract>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-InteractionFlow"
+                xmi:uuid="725A27D7-D4CD-4B06-9193-206A6D357D06" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-InteractionFlow-base_Dependency"
+                    xmi:uuid="725A27D7-D4CD-4009-9A57-206ACAB6FC5F" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Dependency"/>
+                    <name>base_Dependency</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-33"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Core-InteractionFlow-base_Message"
+                    xmi:uuid="725A27D7-D4CD-4002-9947-206A874F58C4" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Message"/>
+                    <name>base_Message</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-22"/>
+                </ownedAttribute>
+                <name>InteractionFlow</name>
+                <isAbstract>true</isAbstract>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Annotation"
+                xmi:uuid="725A27D7-D4CD-48F4-9A8D-206A3684F0E8" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-Annotation-base_Comment"
+                    xmi:uuid="725A27D7-D4CD-4349-9EEB-206AB0584A8B" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Comment"/>
+                    <name>base_Comment</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-17"/>
+                </ownedAttribute>
+                <name>Annotation</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-7"
+                xmi:uuid="725A27D7-D4CD-4F40-9125-206A9FAF25E8" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-ConditionalExpression-base_OpaqueExpression"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-7-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-7-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-7-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-47E6-9EC3-206A20A99C90" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-7-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-47BD-9452-206A0DB1C14D"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ConditionalExpression</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-ConditionalExpression"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-7"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-8"
+                xmi:uuid="725A27D7-D4CD-4592-9B3C-206A8328BBE0" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-Context-base_Classifier"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-8-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-8-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-8-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-499D-94A2-206A65C9CB49" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-8-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4586-9259-206AB1DFDEE9"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Context</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-Context"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-8"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-9"
+                xmi:uuid="725A27D7-D4CD-4F60-9F3A-206A82830735" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-Viewpoint-base_Classifier"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-9-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-9-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-9-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4E06-9E1B-206A0C11C7E8" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-9-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4E2B-9DC0-206A4B548725"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ViewPoint</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-Viewpoint"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-9"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Port"
+                xmi:uuid="725A27D7-D4CD-45D6-9C28-206AACD223F4" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-Port-base_Port"
+                    xmi:uuid="725A27D7-D4CD-41D5-9039-206A2F54CECF" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Port"/>
+                    <name>base_Port</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-27"/>
+                </ownedAttribute>
+                <name>Port</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-InteractionFlowExpression"
+                xmi:uuid="725A27D7-D4CD-4A3B-9073-206A7228A9ED" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-InteractionFlowExpression-generalization"
+                    xmi:uuid="725A27D7-D4CD-4849-9C49-206AFED3CCF1" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-Expression"/>
+                </generalization>
+                <name>InteractionFlowExpression</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-InteractionFlowElement"
+                xmi:uuid="725A27D7-D4CD-4887-9DCE-206AA5406F50" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-InteractionFlowElement-base_Component"
+                    xmi:uuid="725A27D7-D4CD-4A68-923D-206A3462649B" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Component"/>
+                    <name>base_Component</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-36"/>
+                </ownedAttribute>
+                <name>InteractionFlowElement</name>
+                <isAbstract>true</isAbstract>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-DynamicBehavior"
+                xmi:uuid="725A27D7-D4CD-4BB0-987B-206AC0427629" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-DynamicBehavior-generalization"
+                    xmi:uuid="725A27D7-D4CD-4F7C-9C9A-206A87400579" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ContentBinding"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Core-DynamicBehavior-base_Classifier"
+                    xmi:uuid="725A27D7-D4CD-4F95-93BF-206A2CE6BCEB" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Classifier"/>
+                    <name>base_Classifier</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-47"/>
+                </ownedAttribute>
+                <name>DynamicBehavior</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ParameterBindingGroup"
+                xmi:uuid="725A27D7-D4CD-4021-95C9-206AE15CDAE2" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-ParameterBindingGroup-base_Comment"
+                    xmi:uuid="725A27D7-D4CD-457D-9611-206AC3BE09A4" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Comment"/>
+                    <name>base_Comment</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-15"/>
+                </ownedAttribute>
+                <name>ParameterBindingGroup</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-15"
+                xmi:uuid="725A27D7-D4CD-4D9E-9644-206A845E79CD" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-ParameterBindingGroup-base_Comment"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-15-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-15-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-15-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4BBE-9399-206A5C6F4D3E" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-15-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-48ED-9B88-206A40FEEBBD"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ParameterBindingGroup</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-ParameterBindingGroup"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-15"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ViewContainer"
+                xmi:uuid="725A27D7-D4CD-4FAA-977E-206A0887405C" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-ViewContainer-generalization"
+                    xmi:uuid="725A27D7-D4CD-4116-914A-206A7D1CD5F2" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewElement"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Core-ViewContainer-isXOR"
+                    xmi:uuid="725A27D7-D4CD-4DF0-989F-206ABC3449E9" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#Boolean"/>
+                    <name>isXOR</name>
+                    <visibility>public</visibility>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Core-ViewContainer-isLandmark"
+                    xmi:uuid="725A27D7-D4CD-40C4-9F92-206A564C898E" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#Boolean"/>
+                    <name>isLandmark</name>
+                    <visibility>public</visibility>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Core-ViewContainer-isDefault"
+                    xmi:uuid="725A27D7-D4CD-4AC1-93A6-206AA25C1B2C" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#Boolean"/>
+                    <name>isDefault</name>
+                    <visibility>public</visibility>
+                </ownedAttribute>
+                <name>ViewContainer</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-17"
+                xmi:uuid="725A27D7-D4CD-4A95-9FEC-206AB01DF825" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-Annotation-base_Comment"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-17-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-17-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-17-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4331-94EB-206A64343DB0" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-17-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-45AB-9A98-206A1B4E91AF"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-Annotation"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-17"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-18"
+                xmi:uuid="725A27D7-D4CD-4C2B-9EDA-206A2E0C368D" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-DataFlow-base_Message"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-18-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-18-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-18-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-420D-9D38-206A3183E0D4" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-18-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4258-914C-206A286F20DB"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_DataFlow</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-DataFlow"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-18"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ContextDimension"
+                xmi:uuid="725A27D7-D4CD-428D-913C-206A9644C6CC" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-ContextDimension-base_Actor"
+                    xmi:uuid="725A27D7-D4CD-4941-9D18-206A78BB8135" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Actor"/>
+                    <name>base_Actor</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-48"/>
+                </ownedAttribute>
+                <name>ContextDimension</name>
+                <isAbstract>true</isAbstract>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-IFMLModel"
+                xmi:uuid="725A27D7-D4CD-45E9-9146-206A6FA7F3AB" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-IFMLModel-base_Package"
+                    xmi:uuid="725A27D7-D4CD-4D9C-9A66-206A930BE357" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Package"/>
+                    <name>base_Package</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-25"/>
+                </ownedAttribute>
+                <name>IFMLModel</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Action"
+                xmi:uuid="725A27D7-D4CD-4257-94FF-206A193FAAF9" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-Action-generalization"
+                    xmi:uuid="725A27D7-D4CD-433B-92B3-206A7EB2B221" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-InteractionFlowElement"/>
+                </generalization>
+                <name>Action</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-22"
+                xmi:uuid="725A27D7-D4CD-4390-9D75-206A3EF4BCE9" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-InteractionFlow-base_Message"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-22-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-22-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-22-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-44C0-91CB-206A31A795D7" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-22-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-48B5-9980-206A7B8CA289"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_InteractionFlow</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-InteractionFlow"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-22"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Context"
+                xmi:uuid="725A27D7-D4CD-4A40-9555-206A139BFCF1" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-Context-base_Classifier"
+                    xmi:uuid="725A27D7-D4CD-4A86-9077-206A93A89217" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Classifier"/>
+                    <name>base_Classifier</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-8"/>
+                </ownedAttribute>
+                <name>Context</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ParameterBinding"
+                xmi:uuid="725A27D7-D4CD-4CBF-982C-206AC450C0CA" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-ParameterBinding-base_Classifier"
+                    xmi:uuid="725A27D7-D4CD-4C82-9263-206A0002E60E" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Classifier"/>
+                    <name>base_Classifier</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-59"/>
+                </ownedAttribute>
+                <name>ParameterBinding</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-25"
+                xmi:uuid="725A27D7-D4CD-4A97-9CA7-206A901E89F1" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-IFMLModel-base_Package"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-25-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-25-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-25-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4D67-9DAA-206A372A9758" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-25-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4BF4-9A3B-206A77883BCC"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_IFMLModel</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-IFMLModel"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-25"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-26"
+                xmi:uuid="725A27D7-D4CD-41D2-9AD1-206AD184C727" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-ActionEvent-base_Signal"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-26-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-26-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-26-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4FD3-9787-206A8C3A7183" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-26-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-412B-9A3C-206A2F884D4C"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ActionEvent</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-ActionEvent"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-26"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-27"
+                xmi:uuid="725A27D7-D4CD-4E46-9A85-206A00073ADC" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-Port-base_Port"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-27-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-27-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-27-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4F39-98B5-206A6BE63DC1" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-27-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4607-98B3-206A06507B54"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Port</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-Port"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-27"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-DataFlow"
+                xmi:uuid="725A27D7-D4CD-41AF-923E-206AA356B528" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-DataFlow-generalization"
+                    xmi:uuid="725A27D7-D4CD-408D-9014-206A27C8B1A2" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-InteractionFlow"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Core-DataFlow-base_Dependency"
+                    xmi:uuid="725A27D7-D4CD-4160-9B62-206A30C6A674" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Dependency"/>
+                    <name>base_Dependency</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-29"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Core-DataFlow-base_Message"
+                    xmi:uuid="725A27D7-D4CD-4EB5-9E4D-206A81E2F19E" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Message"/>
+                    <name>base_Message</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-18"/>
+                </ownedAttribute>
+                <name>DataFlow</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-29"
+                xmi:uuid="725A27D7-D4CD-47F8-922A-206A645522B0" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-DataFlow-base_Dependency"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-29-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-29-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-29-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4119-9E72-206AE8573F59" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-29-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4E0A-98C3-206A7904BACA"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_DataFlow</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-DataFlow"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-29"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Module"
+                xmi:uuid="725A27D7-D4CD-42F2-97D7-206ADE712C31" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-Module-generalization"
+                    xmi:uuid="725A27D7-D4CD-4B19-9134-206A1B35563E" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-InteractionFlowElement"/>
+                </generalization>
+                <name>Module</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-31"
+                xmi:uuid="725A27D7-D4CD-4170-98E3-206A27B64234" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-NavigationFlow-base_Dependency"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-31-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-31-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-31-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4B75-95A6-206AE0CBEBA0" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-31-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4BF5-9399-206A4A8426C1"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_NavigationFlow</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-NavigationFlow"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-31"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-32"
+                xmi:uuid="725A27D7-D4CD-44DD-9EE1-206A49AD7BA5" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-ViewElementEvent-base_Signal"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-32-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-32-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-32-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4C5A-9ECA-206A857BFD57" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-32-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-429F-9B71-206A31598186"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ViewElementEvent</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-ViewElementEvent"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-32"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-33"
+                xmi:uuid="725A27D7-D4CD-44EE-946B-206A59A096D9" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-InteractionFlow-base_Dependency"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-33-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-33-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-33-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4FB3-976C-206A5F470A44" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-33-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4AF9-9032-206AE276E707"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_InteractionFlow</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-InteractionFlow"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-33"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-BooleanExpression"
+                xmi:uuid="725A27D7-D4CD-473B-9383-206AFE39FACE" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-BooleanExpression-generalization"
+                    xmi:uuid="725A27D7-D4CD-4785-9D3B-206A8F814B62" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-Expression"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Core-BooleanExpression-base_OpaqueExpression"
+                    xmi:uuid="725A27D7-D4CD-4C91-9197-206AE7028CC5" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#OpaqueExpression"/>
+                    <name>base_OpaqueExpression</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-46"/>
+                </ownedAttribute>
+                <name>BooleanExpression</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-35"
+                xmi:uuid="725A27D7-D4CD-47E1-9FC7-206ACC89C0E9" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-Expression-base_OpaqueExpression"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-35-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-35-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-35-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4DB5-9095-206AD9C573DC" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-35-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-42FB-90EF-206AFDCBFCE1"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Expression</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-Expression"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-35"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-36"
+                xmi:uuid="725A27D7-D4CD-447B-985E-206A12CC8B1E" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-InteractionFlowElement-base_Component"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-36-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-36-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-36-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4BCF-9224-206A0391DB72" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-36-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-426A-901F-206A8588B6AD"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_InteractionFlowElement</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-InteractionFlowElement"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-36"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-37"
+                xmi:uuid="725A27D7-D4CD-4DA9-9F49-206A21E8E928" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-SystemEvent-base_Signal"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-37-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-37-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-37-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4764-9D3C-206A2C25D768" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-37-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4485-9957-206A5DDA5BE9"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_SystemEvent</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-SystemEvent"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-37"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-38"
+                xmi:uuid="725A27D7-D4CD-42B7-910B-206A5A102C01" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-ConditionalExpression-base_Component"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-38-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-38-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-38-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-40DF-9748-206ABF8365EF" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-38-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4CDF-93F1-206AD3E4AAE6"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ConditionalExpression</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-ConditionalExpression"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-38"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-39"
+                xmi:uuid="725A27D7-D4CD-4AAE-9EEC-206AE6EF38FD" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-InteractionFlowModel-base_Package"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-39-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-39-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-39-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-41B6-9591-206A2E97944E" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-39-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4B49-9D7F-206A803BF34E"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-InteractionFlowModel"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-39"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-40"
+                xmi:uuid="725A27D7-D4CD-4CC1-99F5-206AFDB971CE" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-ContentModel-base_Package"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-40-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-40-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-40-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-49C8-9F92-206AB2F4953F" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-40-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4AB8-9952-206ADDA41CD4"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ContentModel</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-ContentModel"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-40"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Event"
+                xmi:uuid="725A27D7-D4CD-4F2D-912D-206AA66071D7" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-Event-base_Signal"
+                    xmi:uuid="725A27D7-D4CD-4EB2-95F8-206AE0649A94" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Signal"/>
+                    <name>base_Signal</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-53"/>
+                </ownedAttribute>
+                <name>Event</name>
+                <isAbstract>true</isAbstract>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Constraint"
+                xmi:uuid="725A27D7-D4CD-4109-92C8-206ACA6D29FF" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-Constraint-generalization"
+                    xmi:uuid="725A27D7-D4CD-42BF-9666-206A50F5831F" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-BooleanExpression"/>
+                </generalization>
+                <name>Constraint</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-DataBinding"
+                xmi:uuid="725A27D7-D4CD-4C28-9657-206ADA27CBC3" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-DataBinding-generalization"
+                    xmi:uuid="725A27D7-D4CD-4F6B-92B8-206ACF79D677" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ContentBinding"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Core-DataBinding-base_Classifier"
+                    xmi:uuid="725A27D7-D4CD-43DE-9158-206ADA2512A5" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Classifier"/>
+                    <name>base_Classifier</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-54"/>
+                </ownedAttribute>
+                <name>DataBinding</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ActionEvent"
+                xmi:uuid="725A27D7-D4CD-442C-9CDF-206A0FCAFFF5" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-ActionEvent-generalization"
+                    xmi:uuid="725A27D7-D4CD-4883-93B1-206AD85F3850" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-Event"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Core-ActionEvent-base_Signal"
+                    xmi:uuid="725A27D7-D4CD-45B3-9AA3-206AAA5089A9" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Signal"/>
+                    <name>base_Signal</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-26"/>
+                </ownedAttribute>
+                <name>ActionEvent</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ViewElement"
+                xmi:uuid="725A27D7-D4CD-4FF7-9B44-206A100B5962" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-ViewElement-generalization"
+                    xmi:uuid="725A27D7-D4CD-41B8-9F83-206AFC400370" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-InteractionFlowElement"/>
+                </generalization>
+                <name>ViewElement</name>
+                <isAbstract>true</isAbstract>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-46"
+                xmi:uuid="725A27D7-D4CD-4BC4-93F7-206A77DA8D80" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-BooleanExpression-base_OpaqueExpression"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-46-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-46-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-46-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4396-9218-206A90BB79B2" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-46-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4F1A-9D8E-206A17687BAB"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_BooleanExpression</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-BooleanExpression"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-46"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-47"
+                xmi:uuid="725A27D7-D4CD-4C9C-98FE-206AD767F2BF" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-DynamicBehavior-base_Classifier"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-47-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-47-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-47-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-45F8-9283-206A84A85820" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-47-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-45D8-9360-206A67EAE21B"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_DinamicBehavior</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-DynamicBehavior"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-47"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-48"
+                xmi:uuid="725A27D7-D4CD-4BED-9920-206AB067A650" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-ContextDimension-base_Actor"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-48-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-48-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-48-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4FCB-959B-206A46AA8072" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-48-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4C46-99A9-206A6789D97D"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ContextDimension</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-ContextDimension"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-48"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Viewpoint"
+                xmi:uuid="725A27D7-D4CD-4E42-9AA9-206A10BE19A9" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-Viewpoint-base_Classifier"
+                    xmi:uuid="725A27D7-D4CD-4E3C-9471-206A4B47E07B" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Classifier"/>
+                    <name>base_Classifier</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-9"/>
+                </ownedAttribute>
+                <name>Viewpoint</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-Parameter"
+                xmi:uuid="725A27D7-D4CD-41CA-9941-206A57755731" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-Parameter-base_Property"
+                    xmi:uuid="725A27D7-D4CD-41A6-964F-206A22B1AF50" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Property"/>
+                    <name>base_Property</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-51"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Core-Parameter-kind"
+                    xmi:uuid="725A27D7-D4CD-45DC-9100-206AE10C303D" xmi:type="uml:Property">
+                    <type
+                        href="http://www.omg.org/spec/IFML/20130218/IFML-Metamodel.xmi#IFML-DataTypes-ParameterKind"/>
+                    <name>kind</name>
+                    <visibility>public</visibility>
+                </ownedAttribute>
+                <name>Parameter</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-51"
+                xmi:uuid="725A27D7-D4CD-4708-9D5B-206A534C005A" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-Parameter-base_Property"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-51-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-51-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-51-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-49CF-94F6-206A0EEFDBCA" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-51-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4B77-9980-206A669D1ACA"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-Parameter"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-51"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ContentModel"
+                xmi:uuid="725A27D7-D4CD-43F5-94D5-206AAE45142B" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-ContentModel-base_Package"
+                    xmi:uuid="725A27D7-D4CD-4270-9028-206AA5FCC93C" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Package"/>
+                    <name>base_Package</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-40"/>
+                </ownedAttribute>
+                <name>ContentModel</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-53"
+                xmi:uuid="725A27D7-D4CD-4098-9E55-206AADFC1028" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-Event-base_Signal"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-53-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-53-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-53-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4A48-9365-206A9DF94F6C" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-53-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4286-9937-206A47986520"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_Event</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-Event"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-53"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-54"
+                xmi:uuid="725A27D7-D4CD-4959-9698-206A3D96DEA0" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-DataBinding-base_Classifier"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-54-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-54-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-54-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4019-96D4-206A99C3D6E3" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-54-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4DFD-95A5-206A21D2D9DB"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_DataBinding</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-DataBinding"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-54"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-SystemEvent"
+                xmi:uuid="725A27D7-D4CD-406B-935D-206A4523F097" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-SystemEvent-generalization"
+                    xmi:uuid="725A27D7-D4CD-4B6F-9F79-206A2509E386" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-Event"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Core-SystemEvent-base_Signal"
+                    xmi:uuid="725A27D7-D4CD-456F-984D-206AA732D6B4" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Signal"/>
+                    <name>base_Signal</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-37"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Core-SystemEvent-type"
+                    xmi:uuid="725A27D7-D4CD-43AD-9968-206AC36FC50F" xmi:type="uml:Property">
+                    <type
+                        href="http://www.omg.org/spec/IFML/20130218/IFML-Metamodel.xmi#IFML-DataTypes-SystemEventType"/>
+                    <name>type</name>
+                    <visibility>public</visibility>
+                </ownedAttribute>
+                <name>SystemEvent</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ViewComponent"
+                xmi:uuid="725A27D7-D4CD-4F97-9E31-206A7451477D" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-ViewComponent-generalization"
+                    xmi:uuid="725A27D7-D4CD-42C0-95D2-206A433D0540" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewElement"/>
+                </generalization>
+                <name>ViewComponent</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ActivationExpression"
+                xmi:uuid="725A27D7-D4CD-4088-95FB-206A26534B99" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-ActivationExpression-generalization"
+                    xmi:uuid="725A27D7-D4CD-44A1-9E86-206A856383C6" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-BooleanExpression"/>
+                </generalization>
+                <name>ActivationExpression</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ContentBinding"
+                xmi:uuid="725A27D7-D4CD-4479-9C52-206AF82E6714" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-ContentBinding-base_Classifier"
+                    xmi:uuid="725A27D7-D4CD-4991-97DD-206A583F58CE" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Classifier"/>
+                    <name>base_Classifier</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-2"/>
+                </ownedAttribute>
+                <name>ContentBinding</name>
+                <isAbstract>true</isAbstract>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-packagedElement-59"
+                xmi:uuid="725A27D7-D4CD-4643-977C-206A63003958" xmi:type="uml:Extension">
+                <memberEnd xmi:idref="IFML-Profile-Core-ParameterBinding-base_Classifier"/>
+                <memberEnd xmi:idref="IFML-Profile-Core-packagedElement-59-ownedEnd"/>
+                <navigableOwnedEnd xmi:idref="IFML-Profile-Core-packagedElement-59-ownedEnd"/>
+                <ownedEnd xmi:id="IFML-Profile-Core-packagedElement-59-ownedEnd"
+                    xmi:uuid="725A27D7-D4CD-4EE0-9C72-206A616E875C" xmi:type="uml:ExtensionEnd">
+                    <lowerValue xmi:id="IFML-Profile-Core-packagedElement-59-ownedEnd-lowerValue"
+                        xmi:uuid="725A27D7-D4CD-4862-99EE-206A5E0AEA48"
+                        xmi:type="uml:LiteralInteger"/>
+                    <name>extension_ParameterBinding</name>
+                    <visibility>private</visibility>
+                    <aggregation>composite</aggregation>
+                    <type xmi:idref="IFML-Profile-Core-ParameterBinding"/>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-59"/>
+                </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-NavigationFlow"
+                xmi:uuid="725A27D7-D4CD-498E-9DFB-206AC1CF57D6" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-NavigationFlow-generalization"
+                    xmi:uuid="725A27D7-D4CD-4E22-9195-206A0B77090A" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-InteractionFlow"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Core-NavigationFlow-base_Dependency"
+                    xmi:uuid="725A27D7-D4CD-4D27-9B1F-206AF9284E90" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Dependency"/>
+                    <name>base_Dependency</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-31"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Core-NavigationFlow-base_Message"
+                    xmi:uuid="725A27D7-D4CD-43A6-978E-206A1165184A" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Message"/>
+                    <name>base_Message</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-1"/>
+                </ownedAttribute>
+                <name>NavigationFlow</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ConditionalExpression"
+                xmi:uuid="725A27D7-D4CD-44E3-9A6A-206AD68FA695" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-ConditionalExpression-generalization-1"
+                    xmi:uuid="725A27D7-D4CD-4C4A-9115-206A2AC20F62" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-Expression"/>
+                </generalization>
+                <generalization xmi:id="IFML-Profile-Core-ConditionalExpression-generalization-2"
+                    xmi:uuid="725A27D7-D4CD-4BCD-9973-206A81A5A41F" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-ViewComponentPart"/>
+                </generalization>
+                <ownedAttribute
+                    xmi:id="IFML-Profile-Core-ConditionalExpression-base_OpaqueExpression"
+                    xmi:uuid="725A27D7-D4CD-44A0-9E1C-206AB0802BAD" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#OpaqueExpression"/>
+                    <name>base_OpaqueExpression</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-7"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="IFML-Profile-Core-ConditionalExpression-base_Component"
+                    xmi:uuid="725A27D7-D4CD-4F3F-9207-206A21F5BFFA" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Component"/>
+                    <name>base_Component</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-38"/>
+                </ownedAttribute>
+                <name>ConditionalExpression</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-ViewElementEvent"
+                xmi:uuid="725A27D7-D4CD-488C-9419-206A74A71CC2" xmi:type="uml:Stereotype">
+                <generalization xmi:id="IFML-Profile-Core-ViewElementEvent-generalization"
+                    xmi:uuid="725A27D7-D4CD-4203-9FC3-206A613F03C8" xmi:type="uml:Generalization">
+                    <general xmi:idref="IFML-Profile-Core-Event"/>
+                </generalization>
+                <ownedAttribute xmi:id="IFML-Profile-Core-ViewElementEvent-base_Signal"
+                    xmi:uuid="725A27D7-D4CD-41ED-9662-206A17B8083F" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Signal"/>
+                    <name>base_Signal</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-32"/>
+                </ownedAttribute>
+                <name>ViewElementEvent</name>
+            </packagedElement>
+            <packagedElement xmi:id="IFML-Profile-Core-InteractionFlowModel"
+                xmi:uuid="725A27D7-D4CD-4ECE-9FBC-206A06EB0E8E" xmi:type="uml:Stereotype">
+                <ownedAttribute xmi:id="IFML-Profile-Core-InteractionFlowModel-base_Package"
+                    xmi:uuid="725A27D7-D4CD-47B4-97F7-206AF0EC7D3A" xmi:type="uml:Property">
+                    <type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Package"/>
+                    <name>base_Package</name>
+                    <visibility>private</visibility>
+                    <association xmi:idref="IFML-Profile-Core-packagedElement-39"/>
+                </ownedAttribute>
+                <name>InteractionFlowModel</name>
+            </packagedElement>
+            <name>Core</name>
+        </packagedElement>
+        <name>IFML-Profile</name>
+        <URI>http://www.omg.org/spec/IFML/20130218/IFML-Profile</URI>
+    </uml:Profile>
+    <mofext:Tag xmi:id="_-Tag" xmi:uuid="725A27D7-D4CD-4638-9AE1-206A7B592A23" xmi:type="mofext:Tag">
+        <name>org.omg.xmi.nsPrefix</name>
+        <value>ifml-profile</value>
+        <element xmi:idref="IFML-Profile"/>
+    </mofext:Tag>
+</xmi:XMI>
