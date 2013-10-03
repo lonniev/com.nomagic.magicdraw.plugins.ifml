@@ -27,6 +27,7 @@
         <mkdir dir="${dist}/data/defaults/data/reports"/>
 
         <mkdir dir="${dist}/plugins/com.nomagic.magicdraw.plugins.ifml/lib"/>
+        <mkdir dir="${dist}/profiles"/>
 
     </target>
 
@@ -138,6 +139,10 @@
             <fileset dir="lib"/>
         </copy>
 
+        <copy todir="${dist}/profiles">
+            <fileset dir="${src}/profiles"/>
+        </copy>
+
         <zip destfile="magicdraw-plugins-ifml-${DSTAMP}-${TSTAMP}.zip" basedir="${dist}"/>
 
     </target>
@@ -158,6 +163,10 @@
 
         <copy todir="${dist}/plugins/com.nomagic.magicdraw.plugins.ifml/lib">
             <fileset dir="lib"/>
+        </copy>
+
+        <copy todir="${dist}/profiles">
+            <fileset dir="${src}/profiles"/>
         </copy>
 
         <zip destfile="magicdraw-plugins-ifml-${DSTAMP}-${TSTAMP}.zip" basedir="${dist}"/>
