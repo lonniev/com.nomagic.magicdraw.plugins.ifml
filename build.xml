@@ -1,0 +1,170 @@
+<project name="No Magic MagicDraw IFML Plugin" default="all" basedir=".">
+
+    <!-- set global properties for this build -->
+    <property name="src" location="src"/>
+    <property name="bin" location="bin"/>
+    <property name="build" location="build"/>
+    <property name="dist" location="dist"/>
+
+    <target name="clean">
+        <delete includeEmptyDirs="true" quiet="true">
+            <fileset dir="${bin}" erroronmissingdir="false"/>
+            <fileset dir="${build}" erroronmissingdir="false"/>
+            <fileset dir="${dist}" erroronmissingdir="false"/>
+        </delete>
+
+        <delete quiet="true">
+            <fileset dir="." includes="magicdraw-plugins-ifml-*.zip"/>
+        </delete>
+    </target>
+
+    <target name="init" depends="clean">
+        <!-- Create the build directory structure used by compile -->
+        <mkdir dir="${build}"/>
+
+        <!-- Create the dist directory structure used to stage the plugin files -->
+        <mkdir dir="${dist}/data/resourcemanager"/>
+        <mkdir dir="${dist}/data/defaults/data/reports"/>
+
+        <mkdir dir="${dist}/plugins/com.nomagic.magicdraw.plugins.ifml/lib"/>
+
+    </target>
+
+    <target name="compile" depends="init">
+
+        <!-- Create the time stamp -->
+        <tstamp/>
+
+        <path id="master-classpath">
+
+            <fileset dir="C:\Program Files\Cameo Enterprise Architecture\lib">
+                <include name="jsr305.jar"/>
+                <include name="md_api.jar"/>
+                <include name="md_common.jar"/>
+                <include name="md_common_api.jar"/>
+                <include name="md_foundation_1.0.jar"/>
+                <include name="md.jar"/>
+                <include name="org.eclipse.emf.ecore_2.7.0.v20110513-1719.jar"/>
+                <include name="org.eclipse.emf.common_2.7.0.v20110513-1719.jar"/>
+                <include name="javax_jmi-1_0-fr.jar"/>
+                <include name="uml2.jar"/>
+                <include name="log4j-1.2.15.jar"/>
+            </fileset>
+
+            <fileset dir="lib">
+                <include name="*.jar"/>
+            </fileset>
+
+        </path>
+
+        <replace file="${src}/com/nomagic/magicdraw/plugins/ifml/MagicDrawIfmlPlugin.java"
+                 token="@@@compile-timestamp@@@" value="${DSTAMP}-${TSTAMP}"/>
+
+        <replace file="${src}/com/nomagic/magicdraw/plugins/ifml/MagicDrawIfmlPlugin.java"
+                 token="@@@debug-flag@@@" value="disabled"/>
+
+        <javac includeantruntime="false" srcdir="${src}" destdir="${build}">
+            <classpath refid="master-classpath"/>
+        </javac>
+
+        <replaceregexp file="${src}/com/nomagic/magicdraw/plugins/ifml/MagicDrawIfmlPlugin.java"
+                       preservelastmodified="true"
+                       match="Compiled at (.*)\."
+                       replace="Compiled at @@@compile-timestamp@@@ (debug=@@@debug-flag@@@)\."/>
+
+    </target>
+
+    <target name="debug-compile" depends="init">
+
+        <!-- Create the time stamp -->
+        <tstamp/>
+
+        <path id="master-classpath">
+
+            <fileset dir="C:\Program Files\Cameo Enterprise Architecture\lib">
+                <include name="jsr305.jar"/>
+                <include name="md_api.jar"/>
+                <include name="md_common.jar"/>
+                <include name="md_common_api.jar"/>
+                <include name="md_foundation_1.0.jar"/>
+                <include name="md.jar"/>
+                <include name="org.eclipse.emf.ecore_2.7.0.v20110513-1719.jar"/>
+                <include name="org.eclipse.emf.common_2.7.0.v20110513-1719.jar"/>
+                <include name="javax_jmi-1_0-fr.jar"/>
+                <include name="uml2.jar"/>
+                <include name="log4j-1.2.15.jar"/>
+            </fileset>
+
+            <fileset dir="lib">
+                <include name="*.jar"/>
+            </fileset>
+
+        </path>
+
+        <replace file="${src}/com/nomagic/magicdraw/plugins/ifml/MagicDrawIfmlPlugin.java"
+                 preservelastmodified="true"
+                 token="@@@compile-timestamp@@@" value="${DSTAMP}-${TSTAMP}"/>
+
+        <replace file="${src}/com/nomagic/magicdraw/plugins/ifml/MagicDrawIfmlPlugin.java"
+                 preservelastmodified="true"
+                 token="@@@debug-flag@@@" value="enabled"/>
+
+        <javac includeantruntime="false" srcdir="${src}" destdir="${build}" debug="true">
+            <classpath refid="master-classpath"/>
+        </javac>
+
+        <replaceregexp file="${src}/com/nomagic/magicdraw/plugins/ifml/MagicDrawIfmlPlugin.java"
+                       preservelastmodified="true"
+                       match="Compiled at (.*)\."
+                       replace="Compiled at @@@compile-timestamp@@@ (debug=@@@debug-flag@@@)\."/>
+
+    </target>
+
+    <target name="dist" depends="compile">
+
+        <jar destfile="${dist}/plugins/com.nomagic.magicdraw.plugins.ifml/magicdraw-plugins-ifml.jar"
+             basedir="${build}" whenmanifestonly="fail"/>
+
+        <copy file="${src}/plugins/com.nomagic.magicdraw.plugins.ifml/plugin.xml"
+              todir="${dist}/plugins/com.nomagic.magicdraw.plugins.ifml"/>
+        <copy file="${src}/data/resourcemanager/MDR_Plugin_comnomagicmagidrawpluginsimfl_98989_descriptor.xml"
+              todir="${dist}/data/resourcemanager"/>
+
+        <replace preservelastmodified="true"
+                 file="${dist}/data/resourcemanager/MDR_Plugin_comnomagicmagidrawpluginsimfl_98989_descriptor.xml"
+                 token="@@@timestamp@@@" value="${DSTAMP}-${TSTAMP}"/>
+
+        <copy todir="${dist}/plugins/com.nomagic.magicdraw.plugins.ifml/lib">
+            <fileset dir="lib"/>
+        </copy>
+
+        <zip destfile="magicdraw-plugins-ifml-${DSTAMP}-${TSTAMP}.zip" basedir="${dist}"/>
+
+    </target>
+
+    <target name="debug-dist" depends="debug-compile">
+
+        <jar destfile="${dist}/plugins/com.nomagic.magicdraw.plugins.ifml/magicdraw-plugins-ifml.jar"
+             basedir="${build}" whenmanifestonly="fail"/>
+
+        <copy file="${src}/plugins/com.nomagic.magicdraw.plugins.ifml/plugin.xml"
+              todir="${dist}/plugins/com.nomagic.magicdraw.plugins.ifml"/>
+        <copy file="${src}/data/resourcemanager/MDR_Plugin_comnomagicmagidrawpluginsimfl_98989_descriptor.xml"
+              todir="${dist}/data/resourcemanager"/>
+
+        <replace preservelastmodified="true"
+                 file="${dist}/data/resourcemanager/MDR_Plugin_comnomagicmagidrawpluginsimfl_98989_descriptor.xml"
+                 token="@@@timestamp@@@" value="${DSTAMP}-${TSTAMP}"/>
+
+        <copy todir="${dist}/plugins/com.nomagic.magicdraw.plugins.ifml/lib">
+            <fileset dir="lib"/>
+        </copy>
+
+        <zip destfile="magicdraw-plugins-ifml-${DSTAMP}-${TSTAMP}.zip" basedir="${dist}"/>
+
+    </target>
+
+    <target name="all" depends="dist"/>
+    <target name="debug-all" depends="debug-dist"/>
+
+</project>

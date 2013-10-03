@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceDescriptor
+
+        critical="false" date="2013-10-01-06:00"
+        description="Cameo No Magic Transformation MD to XMI 2.4.1 Plugin 1, Provider Name: Lonnie VanZandt."
+        group="Model Transformations"
+        homePage="www.nomagic.com"
+        id="78909" mdVersionMax="higher" mdVersionMin="17.0.4"
+        name="Cameo No Magic Transformation MD to XMI 2.4.1 Plugin"
+        product="comnomagiccameotransformationsmdtoxmi_2_4_1"
+        restartMagicdraw="false"
+        type="Plugin">
+
+    <version human="17.0.4-@@@timestamp@@@" internal="17.0.4-@@@timestamp@@@" resource="10"/>
+    <provider email="lvanzandt@nomagic.com" homePage="www.nomagic.com" name="Lonnie VanZandt"/>
+    <edition>Enterprise</edition>
+    <installation>
+        <file from="plugins/com.nomagic.cameo.transformations.md.to.xmi_2_4_1/cameo-transform-md-to-xmi-2-4-1.jar"
+              to="plugins/com.nomagic.cameo.transformations.md.to.xmi_2_4_1/cameo-transform-md-to-xmi-2-4-1.jar"/>
+
+        <file from="plugins/com.nomagic.cameo.transformations.md.to.xmi_2_4_1/lib/guava-14.0.1.jar"
+              to="plugins/com.nomagic.cameo.transformations.md.to.xmi_2_4_1/lib/guava-14.0.1.jar"/>
+
+        <file from="plugins/com.nomagic.cameo.transformations.md.to.xmi_2_4_1/lib/jdom-2.0.5.jar"
+              to="plugins/com.nomagic.cameo.transformations.md.to.xmi_2_4_1/lib/jdom-2.0.5.jar"/>
+
+        <file from="plugins/com.nomagic.cameo.transformations.md.to.xmi_2_4_1/plugin.xml"
+              to="plugins/com.nomagic.cameo.transformations.md.to.xmi_2_4_1/plugin.xml"/>
+    </installation>
+</resourceDescriptor>
+

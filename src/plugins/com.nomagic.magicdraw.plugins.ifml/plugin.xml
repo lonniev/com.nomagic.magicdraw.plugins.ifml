@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- descriptor for the plugin; note that the id attribute must match the ID used in the code -->
+<plugin
+        id="com.nomagic.magicdraw.plugins.ifml"
+        name="Cameo MagicDraw IFML Plugin"
+        version="0.1"
+        provider-name="No Magic"
+        class="com.nomagic.magicdraw.plugins.ifml.MagicDrawIfmlPlugin">
+
+    <requires>
+        <api version="1.0"/>
+    </requires>
+
+    <runtime>
+        <library name="magicdraw-plugins-ifml.jar"/>
+        <library name="lib/guava-14.0.1.jar"/>
+    </runtime>
+</plugin>
