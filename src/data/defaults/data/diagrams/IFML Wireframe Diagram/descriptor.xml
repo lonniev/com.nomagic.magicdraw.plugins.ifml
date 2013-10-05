@@ -6,21 +6,20 @@
             <icon filename="screen(internal_frame).gif" size="16" type="menu">47494638396110001000C40000000000FFFFFFCDCDD2C9C9CEBABABFE9E9EEE7E7ECE5E5EAE2E2E7DFDFE4DCDCE1D5D5DAD1D1D6B6B7BCB3B4B9B0B1B6ADAEB3C5C6CBC1C2C7BDBEC3D8D9DE4D4D4DFFFFFF00000000000000000000000000000000000000000000000000000021F90401000016002C000000001000100000055760258E64291668AAAAA769166D611C48A2500B2354305FCDB55B4E30F0195DA31E2C58190E221223CC46A9E89E9289B422AC10A113C216C7A860C38DEDB00226341CDB6B25EB763CB6DF0ADA0ED92293272B82287F4821003B</icon>
             <actions>
                 <custom description="Frame" id="IDaction_1241417585266_533063_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257473_328839_3596"/>
                     <buttonicon filename="frame(internal_frame).gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCDCDD2C9C9CEBABABFE9E9EEE7E7ECE5E5EAE2E2E7DFDFE4DCDCE1D5D5DAD1D1D6B6B7BCB3B4B9B0B1B6ADAEB3C5C6CBC1C2C7BDBEC3D8D9DE4D4D4DFFFFFF00000000000000000000000000000000000000000000000000000021F90401000016002C000000001000100000055760258E64291668AAAAA769166D611C48A2500B2354305FCDB55B4E30F0195DA31E2C58190E221223CC46A9E89E9289B422AC10A113C216C7A860C38DEDB00226341CDB6B25EB763CB6DF0ADA0ED92293272B82287F4821003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033407_784412_12673</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
                 <custom description="Group Box" id="IDaction_1238402433879_377879_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257501_363792_3664"/>
                     <buttonicon filename="group_box.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCDCDD2C9C9CEBABABFE9E9EEE7E7ECE5E5EAE2E2E7DFDFE4DCDCE1D5D5DAD1D1D6B6B7BCB3B4B9B0B1B6ADAEB3ABACB1A9AAAFC5C6CBC1C2C7BDBEC3D8D9DE4D4D4DFFFFFF00000000000000000000000000000000000000000021F90401000018002C000000001000100000056420268E64495E28865EE6C88AEC7B5EC5651CC8BAAC6B511F97C4C572610806130AAA60582956C764057543241496851149A91050B86B762B25345056AC36DA353B50E235D7DB703C506A72BBFE80A0C66C747610112872657C84123C8C8D292D90912D21003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                             <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033407_986838_12674</propertyManagerID>
                                 <mdElement elementClass="ChoiceProperty">
                                     <propertyID>Border Type</propertyID>
                                     <propertyGroup>_15_5_8f90291_1225974990693_802788_1479</propertyGroup>
@@ -35,42 +34,38 @@
                     </defaults>
                 </custom>
                 <custom description="Tabbed Pane" id="IDaction_1238402358676_727041_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257340_293838_3351"/>
                     <buttonicon filename="tabbed_pane.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCFCFD4CCCCD1C9C9CEC1C1C6BEBEC3B4B4B9E9E9EEE8E8EDE6E6EBE5E5EAE3E3E8E1E1E6DCDCE1DADADFD7D7DCB8B9BEB6B7BCB1B2B7AFB0B5ADAEB3ACADB2D4D5DAD1D2D7C6C7CCC3C4C9BBBCC1DEDFE44D4D4DFFFFFF00000021F9040100001E002C000000001000100000056C60278ADED895638924CAD2359CF37417260C22BB308DE98B2D5EEC01A9DD0819D10E262BDA06488D48D83442339A828849B4460B06D1D079C48237A2EAF36BD84444DDB5B91D9188C8D72C5D721079E76E7C1322727A81071314226586758814152279678E8915163F992621003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_126819_12675</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
                 <custom description="Tool Bar" id="IDaction_1238402387594_541656_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257263_171440_3304"/>
                     <buttonicon filename="tool_bar.gif" size="32" type="toolbar">47494638396110001000D50000000000FFFFFFCECED3C9C9CEC7C7CCC2C2C7BDBDC2E9E9EEE8E8EDE7E7ECE5E5EAE4E4E9E2E2E7E0E0E5DEDEE3DCDCE1DADADFD8D8DDD3D3D8BABBC0B8B9BEB6B7BCB4B5BAB2B3B8B0B1B6AEAFB4ADAEB3ABACB1D5D6DBD0D1D6CBCCD1C4C5CABFC0C54D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000022002C000000001000100000068BC00322A158301A8E0724C29174049E504821AD5AAF874508A9643AA1034291114A2E9B4F4FF8636C8494576B41EA082D435F35E11302850E0F214C211D57730666214D21607B057E135D78856A5520062114521C8402216B8F061321157F128C518E97139A166821957152175F9FAAA2141516171852A91FA1ACBABC197F03B2717AC0ABB9BB18191A1B41003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_867610_12676</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
                 <custom description="Panel" id="IDaction_1238402238889_44982_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257339_509037_3348"/>
                     <buttonicon filename="panel.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCECED3C9C9CEC7C7CCC2C2C7BDBDC2E7E7ECE5E5EAE4E4E9E2E2E7E0E0E5DEDEE3DCDCE1DADADFD8D8DDD3D3D8BABBC0B8B9BEB6B7BCB4B5BAB2B3B8B0B1B6AEAFB4D5D6DBD0D1D6CBCCD1C4C5CABFC0C54D4D4DFFFFFF00000021F9040100001E002C000000001000100000056660278E64291E48A22C4CE33C1894099A98AEED1BCFDA20AA2C174C461B104438E1AE48D888823A62AF5910E5863CE3A6C01129A55AAE4114CD5239868808CBDCA22312D172EA4E4B2622F0D93EA188CC75707D15226D62821415162274877789161726932421003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_70886_12677</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
                 <custom description="Scroll Pane" id="IDaction_1238402324244_591319_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257449_474623_3459"/>
                     <buttonicon filename="scroll_pane.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCDCDD2C9C9CEBABABFE9E9EEE7E7ECE5E5EAE2E2E7DFDFE4DCDCE1D5D5DAD1D1D6B6B7BCB3B4B9B0B1B6ADAEB3A9AAAFC5C6CBC1C2C7BDBEC3D8D9DE7172764D4D4DFFFFFF00000000000000000000000000000000000000000021F90401000018002C0000000010001000000569E0258E642916C681244AB5308255CC62BAB6AF30C8B2A8B22ED84022A35D6E419D6462695A44C0DC7042B144AE229C704921389F97E4B4DB281644522EA1E1F88AB6D4B5E361C55E9471F603528F88BE80802733753C116627868705563C6717338C57868826962321003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_492313_12678</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
@@ -80,15 +75,15 @@
             <icon filename="button.gif" size="16" type="menu">47494638396110001000C40000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000021F90401000013002C000000001000100000054AE0248E64699E683A4A6CEBBE8D64CC743D47524C1F08943882C18380D319783EA090A028CA90BFE05051701A7AD12575614D4A998505C31A299BCFE5DC6BED6AB8DFF0B85B45AFDB4521003B</icon>
             <actions>
                 <group>
-                    <custom description="Close Toolbar Button" id="IDaction_1239797162430_133917_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Close Toolbar Button" id="IDaction_1239797162430_133917_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="closeproject.gif" size="32" type="toolbar">47494638396110001000B30900B6BA66A5AA52989D43F9FAB5FDFDE6C3C775D40124F5F6844D4D4DFFFFFF00000000000000000000000000000000000021F90401000009002C000000001000100000043E30C949ABA5E6EA6C7AD6498781DE3721280A4A48E1A670D5BA348DC80000EF371B2087A030D8630980436131811A389FCE259340AD56A5BCD86ACB954400003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_490682_12679</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
-                                        <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
+                                        <propertyGroup>_17_0_4_1_132c03d3_1380937257262_637573_3291</propertyGroup>
                                         <propertyDescriptionID>Icon_DESCRIPTION</propertyDescriptionID>
                                         <value>close</value>
                                         <valuesTranslatable xmi:value="false"/>
@@ -99,12 +94,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Copy Toolbar Button" id="IDaction_1239797170222_169623_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Copy Toolbar Button" id="IDaction_1239797170222_169623_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="copy.gif" size="32" type="toolbar">47494638396110001000A20500E8E8E8AEAEAED5D5D5FEFEFE4D4D4DFFFFFF00000000000021F90401000005002C000000001000100000033458BADCFE509139A31CB8363AF120DF160840F7510C31969F172E2AC97944BAD2B44DE2990EF02FC92DC3F1E51E9CA265C9642400003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_276196_12680</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -118,12 +113,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Cut Toolbar Button" id="IDaction_1239797175805_95625_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Cut Toolbar Button" id="IDaction_1239797175805_95625_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="cut.gif" size="32" type="toolbar">47494638396110001000A20400899EB58B9FB700377A4D4D4DFFFFFF00000000000000000021F90401000004002C000000001000100000032D48BADCFEF08D19D700A30511D8CD8D4070CAF78823613EDB388150ABBE6F04471B59A57C85A2955C67472C2E12003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_847290_12681</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -137,12 +132,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Delete Toolbar Button" id="IDaction_1239797181493_686711_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Delete Toolbar Button" id="IDaction_1239797181493_686711_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="delete_menu.gif" size="32" type="toolbar">47494638396110001000C417008AB2E2B4CDECA8C5E98BB2E2A6C4E99CBDE67CA8DE97BAE5919396A3A7AC868C93CADCF28190A3A5A9ADC9DBF198BAE574808F84ADE085AEE08F9296979FA970A0DB4D4D4DFFFFFF00000000000000000000000000000000000000000000000021F90401000017002C0000000010001000000545E0258E64699EE86859695955ED2ACF6C69BD385E93347D5A8FC0C21138EC6C04CB246149A22C020BA2013DF20A1605C5827D022C1086E5FB3448068388C1AAEAB15BF05408003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_844740_12682</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -156,12 +151,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="New Toolbar Button" id="IDaction_1239797186204_882093_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="New Toolbar Button" id="IDaction_1239797186204_882093_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="new.gif" size="32" type="toolbar">47494638396110001000A20700AEAEAEF2F2F2E0E0E0BABABAFEFEFE4D4D4DCCCCCCFFFFFF21F90401000007002C000000001000100000033478BADCFEAFC859E02960181124C41A571095036EDD646628E196CCC9B9E41A0634BCC8F86BB7BE062FF79B056394A465C96C2400003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_363008_12683</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -175,12 +170,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Open Toolbar Button" id="IDaction_1239797190980_570516_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Open Toolbar Button" id="IDaction_1239797190980_570516_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="open.gif" size="32" type="toolbar">47494638396110001000B30800B6BA66A5AA52989D43F9FAB5FDFDE6C3C775F5F6844D4D4DFFFFFF00000000000000000000000000000000000000000021F90401000008002C000000001000100000043810C949ABBDB89E8D4EEE13F7499B17966676142C5A6A6C2CA72400B86E181C46EFF7B48380F7F3050F83A43249EB109E506813871A59AF11003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_721284_12684</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -194,12 +189,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Paste Toolbar Button" id="IDaction_1239797196267_990229_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Paste Toolbar Button" id="IDaction_1239797196267_990229_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="paste.gif" size="32" type="toolbar">47494638396110001000B3090070A0DB00377AF2F2F2E0E0E0BABABAAEAEAEFEFEFE4D4D4DCCCCCCFFFFFF00000000000000000000000000000000000021F90401000009002C000000001000100000043C30C949ABBD589E7DB20620D0615B6006DB75141C678CD44A208360DCF024D3366EEDB5DBEB5798057D15606F982CF284398DF3C88CB5AE9EAC561201003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_103525_12685</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -213,12 +208,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Print Toolbar Button" id="IDaction_1239797200571_745261_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Print Toolbar Button" id="IDaction_1239797200571_745261_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="print_menu.gif" size="32" type="toolbar">47494638396110001000B30C0094A64DD3DC1ECBD524B4C135A7B63F9CAD47C0CC2CE8E8E8AEAEAED5D5D5FEFEFE4D4D4DFFFFFF00000000000000000021F9040100000C002C000000001000100000043A90C949ABBD78698DE742C9C1755FB8280B098A5BB62A707A95078CBAA12D5BB43EF7B19D6411D818170021516018100A8068B2723C76AED84A04003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_356629_12686</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -232,12 +227,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Redo Toolbar Button" id="IDaction_1239797204899_556961_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Redo Toolbar Button" id="IDaction_1239797204899_556961_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="redo.gif" size="32" type="toolbar">47494638396110001000C41C00AECBE8A7C6E6C8DBEFC6DAEF87B2DD9ABEE3A4C5E5ACC9E8CFE0F2689DD4D3E2F3ECF3FA669DD4E2ECF7ABC9E7B1CCE9C9DCF08FB7DF6199D283B0DCB7D0EB73A5D89DC0E35C96D175A6D86EA2D690AFCD4D4D4DFFFFFF00000000000000000021F9040100001C002C000000001000100000054420278E64699E68B96929A96D2BFAC25B95C0E66B384141608C4B4CF47A0C10108A6592910C399B80A0B180012238D206A0C8C258AAC3F3E922B7362D133AAD65BBDFA310003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_756067_12687</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -251,12 +246,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Save Toolbar Button" id="IDaction_1239797209370_234421_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Save Toolbar Button" id="IDaction_1239797209370_234421_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="save.gif" size="32" type="toolbar">47494638396110001000C41B00EDEDEDDFDFDFF7F7F7E8E8E8F1F1F1F2F2F2FAFAFAE9E9E9CFCFCFEEEEEEDADADAC0C0C0D3D3D3D7D7D7B7B7B7D6D6D6F3F3F3E6E6E6CCCCCCC1C1C1E4E4E4F0F0F0CBCBCBF4F4F4E2E2E270A0DB4D4D4DFFFFFF00000000000000000000000021F9040100001B002C0000000010001000000550E0268E64699EA6A6AEAC4A6A9906241524181AA3BD31460D808260C5D334148108E002DB8D9A12C42370203479B1562686DD7ABD4E11EC4B0E6FC62D15F7B9654D2C577656E558C49F69166ACF3F8500003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_26608_12688</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -270,12 +265,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Search Toolbar Button" id="IDaction_1239797213348_327233_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Search Toolbar Button" id="IDaction_1239797213348_327233_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="findbutton.gif" size="32" type="toolbar">47494638396110001000910300E1E3A7A6904D4D4D4DFFFFFF21F90401000003002C00000000100010000002319C8FA9BBE2E88412411E6A61D5D908106CC3177664F981A2A7566909A9D199BD6628CEE6ECE1373CE25D848CA2F1582C00003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_401843_12689</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -289,12 +284,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Undo Toolbar Button" id="IDaction_1239797217569_215119_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Undo Toolbar Button" id="IDaction_1239797217569_215119_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="undo.gif" size="32" type="toolbar">47494638396110001000C41A005E97D26EA1D690B8E08CB5DF6CA0D5D0E1F2ADCAE8A2C3E5AECBE8679DD4ACC9E8A4C5E578A8D99FC1E493B9E0A8C7E77FACDBD1E2F281AEDBEDF3FAECF3FAC4D9EE5F98D2C1D7EE90AFCD4D4D4DFFFFFF00000000000000000000000000000021F9040100001A002C0000000010001000000545A0268E64699EA8866529B96658AB65D930D074EC66C261200B072400DB3D2E8548452160248A241A65426B48080056E925A2052CDA6D78959589563A7358B66EB5CDF05308003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_123118_12690</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -308,12 +303,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Zoom-in Toolbar Button" id="IDaction_1239797222129_26020_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Zoom-in Toolbar Button" id="IDaction_1239797222129_26020_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="zoomin.gif" size="32" type="toolbar">47494638396110001000C41A00E3E3E3D3D3D3CECECEDADADAD0D0D0F5F5F5F6F6F6CCCCCCD8D8D8D9D9D9D2D2D2D1D1D1DBDBDBF2F2F2EBEBEBE5E5E5F8F8F8ECECECF3F3F3E4E4E4E2E2E2F4F4F49B9A98013B824D4D4D000000FFFFFF00000000000000000000000000000021F9040100001A002C0000000010001000000550A0268E64699E687A5A58DB5A281B28847060B08925CC900536CC090378003208A05017C9389D8465092331543280C4424AC2142086CC64A0E08E5885868382B8E44C2C17EE725191E875BB88AEEFA742003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_208675_12691</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -327,12 +322,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Zoom-out Toolbar Button" id="IDaction_1239797228136_327531_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Zoom-out Toolbar Button" id="IDaction_1239797228136_327531_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="zoomout.gif" size="32" type="toolbar">47494638396110001000C41D00E3E3E3D3D3D3CECECED0D0D0D2D2D2ECECECF5F5F5D8D8D8F6F6F6DADADAD9D9D9CCCCCCD1D1D1EBEBEBD6D6D6F2F2F2DFDFDFDBDBDBF4F4F4F8F8F8E4E4E4E2E2E2EEEEEEE5E5E5F3F3F39B9A98013B824D4D4D000000FFFFFF00000000000021F9040100001D002C000000001000100000055060278E64699E687A665BDB66281B1083B06CB0B92951E204B6CD6903B8002007A05057E0389D8365698341480A0005434ADA1826080B2541E08E588647A372D0E44C2C174EA35191E875BB88AEEFA742003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_830945_12692</propertyManagerID>
                                     <mdElement elementClass="ChoiceProperty">
                                         <propertyID>Icon</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -348,15 +343,15 @@
                     </custom>
                 </group>
                 <group>
-                    <custom description="OK Button" id="IDaction_1239793012319_154288_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="OK Button" id="IDaction_1239793012319_154288_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_74868_12693</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
-                                        <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
+                                        <propertyGroup>_17_0_4_1_132c03d3_1380937257262_637573_3291</propertyGroup>
                                         <propertyDescriptionID>Text_DESCRIPTION</propertyDescriptionID>
                                         <value>OK</value>
                                     </mdElement>
@@ -364,12 +359,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Add Button" id="IDaction_1246618923366_82846_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Add Button" id="IDaction_1246618923366_82846_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_453763_12694</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -380,12 +375,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Back Button" id="IDaction_1239793476129_723174_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Back Button" id="IDaction_1239793476129_723174_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_714123_12695</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -396,12 +391,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Browse Button" id="IDaction_1246630976005_613628_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Browse Button" id="IDaction_1246630976005_613628_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_205645_12696</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -412,12 +407,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Cancel Button" id="IDaction_1239792997460_738426_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Cancel Button" id="IDaction_1239792997460_738426_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_125203_12697</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -428,12 +423,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Close Button" id="IDaction_1239793393250_334920_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Close Button" id="IDaction_1239793393250_334920_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_987210_12698</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -444,12 +439,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Finish Button" id="IDaction_1239793503391_856652_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Finish Button" id="IDaction_1239793503391_856652_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_496421_12699</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -460,12 +455,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Help Button" id="IDaction_1246630917130_961281_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Help Button" id="IDaction_1246630917130_961281_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_27188_12700</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -476,12 +471,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Next Button" id="IDaction_1239793427639_498929_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Next Button" id="IDaction_1239793427639_498929_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_276568_12701</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -492,12 +487,12 @@
                             </PropertyVisitorAcceptor>
                         </defaults>
                     </custom>
-                    <custom description="Remove Button" id="IDaction_1246631012412_977247_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                    <custom description="Remove Button" id="IDaction_1246631012412_977247_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                         <buttonicon filename="button_OK.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000001002C000000001000100000086C0003081C48B0A0C18308130E94C0B0A1C3870D24189848B1E2C408122252640821810401121E10C0A8D1800404102438602852014989072474FCC8908082022F0DA0642860800402120A2CC8D9D141CF964219E48CC0B4A953A6191F4A75D8A0AAD5AB58AB2ADCCAB5ABC080003B</buttonicon>
                         <defaults>
                             <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                                 <mdElement elementClass="PropertyManager">
-                                    <propertyManagerID>_16_6beta_8f90291_1252669033422_689933_12702</propertyManagerID>
                                     <mdElement elementClass="StringProperty">
                                         <propertyID>Text</propertyID>
                                         <propertyGroup>_15_5_8f90291_1225975135146_741325_1947</propertyGroup>
@@ -509,33 +504,30 @@
                         </defaults>
                     </custom>
                 </group>
-                <custom description="Button" id="IDaction_1238402028398_672340_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Button" id="IDaction_1238402028398_672340_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291"/>
                     <buttonicon filename="button.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE47172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000021F90401000013002C000000001000100000054AE0248E64699E683A4A6CEBBE8D64CC743D47524C1F08943882C18380D319783EA090A028CA90BFE05051701A7AD12575614D4A998505C31A299BCFE5DC6BED6AB8DFF0B85B45AFDB4521003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_839227_12703</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Check Box" id="IDaction_1238402083256_817489_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Check Box" id="IDaction_1238402083256_817489_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257340_426444_3360"/>
                     <buttonicon filename="check_box.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCDCDD2C9C9CEBABABFE9E9EEE7E7ECE5E5EAE2E2E7DFDFE4DCDCE1D5D5DAD1D1D6B6B7BCB3B4B9B0B1B6ADAEB3A9AAAFC5C6CBC1C2C7BDBEC3D8D9DE4D4D4DFFFFFF00000000000000000000000000000000000000000000000021F90401000017002C000000001000100000055BE0258E64699EA6A5AEAC1A8D56611C48A2540B2358AF68CDB55B4E30E0C168369CCE2231FA82CA9D65E2BC58924317A56A5158B23C0A815B7169090D6E6E1511371C5C5DB18D763CB844C9C46D87705B803D171184858685288921003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_767394_12704</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Radio Button" id="IDaction_1238402169549_551685_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Radio Button" id="IDaction_1238402169549_551685_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257516_158777_3745"/>
                     <buttonicon filename="radio_button.gif" size="32" type="toolbar">47494638396110001000A20000000000FFFFFF747477E9E9EEA9AAAFFFFFFF00000000000021F90401000005002C000000001000100000033658BADCFE5091496299238FF9B0CE5C436882A055CC98012C70A699D002E6060F725BA39236BF375CCD26527D42C523AF43B1389F8D04003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_80591_12705</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
@@ -544,83 +536,75 @@
         <category expandedByDefault="false" id="action_category_1238402000976_697889_2" name="Text">
             <icon filename="text_field.gif" size="16" type="menu">47494638396110001000C40000000000FFFFFFD0D0D5C9C9CEE9E9EEE6E6EBE1E1E6DCDCE1D6D6DBB6B7BCB1B2B7ACADB2A9AAAFC2C3C8BCBDC24D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000010002C000000001000100000054D20248E64699EE7A3A2E6C38A6A2CCF0FF310F8531807220C0D47A276CBF17C40A182882B3C7ABF6042B160EE1E4829D566DB1D1E51E582C17D1C1FC9E9984CA4B96B64767C3E1FC55EF83C2B04003B</icon>
             <actions>
-                <custom description="Text Field" id="IDaction_1238402742271_331427_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Text Field" id="IDaction_1238402742271_331427_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257449_301996_3465"/>
                     <buttonicon filename="text_field.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFD0D0D5C9C9CEE9E9EEE6E6EBE1E1E6DCDCE1D6D6DBB6B7BCB1B2B7ACADB2A9AAAFC2C3C8BCBDC24D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000010002C000000001000100000054D20248E64699EE7A3A2E6C38A6A2CCF0FF310F8531807220C0D47A276CBF17C40A182882B3C7ABF6042B160EE1E4829D566DB1D1E51E582C17D1C1FC9E9984CA4B96B64767C3E1FC55EF83C2B04003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_120914_12706</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Label" id="IDaction_1238402664509_127850_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Label" id="IDaction_1238402664509_127850_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257257_254078_3262"/>
                     <buttonicon filename="label.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFD0D0D5C9C9CEE9E9EEE6E6EBE1E1E6DCDCE1D6D6DBB6B7BCB1B2B7ACADB2A9AAAFC2C3C8BCBDC24D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000010002C000000001000100000054820248E64699E68AAAED0E3BEB0CB880F6117C6810843E33C33D72DE64A001F345CCD667B288EB4DC92F958005B8F1C82789CB5743C5F42B16030AE342ECC0B31BBDF6F967C9E0A01003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_641572_12707</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Text Area" id="IDaction_1238402560001_639893_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Text Area" id="IDaction_1238402560001_639893_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257457_76620_3501"/>
                     <buttonicon filename="text_area.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCDCDD2C9C9CEBABABFE9E9EEE7E7ECE5E5EAE2E2E7DFDFE4DCDCE1D5D5DAD1D1D6B6B7BCB3B4B9B0B1B6ADAEB3A9AAAFC5C6CBC1C2C7BDBEC3D8D9DE7172764D4D4DFFFFFF00000000000000000000000000000000000000000021F90401000018002C0000000010001000000572E0258E642916C681244AB5308255CCA2712157FB0A832C8BAA9C0B3690C868B7C465C8934C2C508B8875D91527144B642B6A5D884E0A212A5D2E2E4D2CA1712C885E97ABB8E1208B18F18B9AFED072D1726B0E0F107E112264898927337E3E116D278F90055A3E6E1733955B8F91269F2321003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_185217_12708</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Hyperlink" id="IDaction_1238402604511_258728_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Hyperlink" id="IDaction_1238402604511_258728_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257519_279060_3753"/>
                     <buttonicon filename="hyperlink.gif" size="32" type="toolbar">47494638396110001000A20000000000FFFFFFE9E9EEA9AAAFFCFEFCCCCECC4D4D4DFFFFFF21F90401000007002C000000001000100000033378BADCFEC63C67049130563270DB5B0759A1C780C6D0990AD856ACDB92DF85C9675544346575BDCF0F575B4526070D72894C00003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_718658_12709</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="List" id="IDaction_1238402532354_959654_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="List" id="IDaction_1238402532354_959654_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257514_370342_3723"/>
                     <buttonicon filename="list.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCDCDD2C9C9CEBABABFE9E9EEE7E7ECE5E5EAE2E2E7DFDFE4DCDCE1D5D5DAD1D1D6B6B7BCB3B4B9B0B1B6ADAEB3ABACB1A9AAAFC5C6CBC1C2C7BDBEC3D8D9DE7172764D4D4DFFFFFF00000000000000000000000000000000000021F90401000019002C000000001000100000056F20268E642916A8712089622D175A9C9831BA0B13C7A7CAE20C410C25B2214A82C1657911AD5AAFE060729158454785483AA1309B18682ED9AD0C6718ED8244A910CEA228B94D687C456B81C951BD62B8740D0E0F77187A1323820F10701853818310113B6865759111128D269C2221003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_56040_12710</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Combo Box" id="IDaction_1238402787759_937265_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Combo Box" id="IDaction_1238402787759_937265_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257452_91715_3475"/>
                     <buttonicon filename="combo_box.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCECED3C9C9CEE9E9EEE7E7ECE4E4E9E0E0E5DCDCE1D8D8DDD3D3D8BABBC0B6B7BCB2B3B8AEAFB4C4C5CABFC0C57172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000021F90401000013002C000000001000100000055EE0248ED2548E686AAAA2E4BE70EC12742DD5917DD7F44EE4B9198FE0CBF55E916444A26C9E6E05C3419250088CC456749A900806D8A74182A87E1FE1D6A16C1D3C206913C225704116CE96D97D67C4250A320D405926677D0D0E7F328C21003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_625455_12711</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Spinner" id="IDaction_1238402814301_863552_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Spinner" id="IDaction_1238402814301_863552_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257473_206986_3594"/>
                     <buttonicon filename="spinner.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCFCFD4C9C9CEBEBEC3B4B4B9E9E9EEE6E6EBE3E3E8DADADFB8B9BEAFB0B5ACADB2A9AAAFD4D5DAC3C4C9DEDFE44D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000012002C000000001000100000054CA0248E64699E683A466CEBBE4D641C089438C2201B7C14D336DCE02163197C91DA2DF720EC7AB12093A0782197436AE1798C099B8AC2A2588C4DC30B0617696DFB1AF0B87CDE50D9EF785108003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_256554_12712</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Password Field" id="IDaction_1238402709194_424877_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Password Field" id="IDaction_1238402709194_424877_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257340_467026_3357"/>
                     <buttonicon filename="password_field.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFD0D0D5C9C9CEE9E9EEE6E6EBE1E1E6DCDCE1D6D6DBB6B7BCB1B2B7ACADB2A9AAAFC2C3C8BCBDC24D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000010002C000000001000100000055020248E64698E4F7A960FE33EABD83233BCCE2E4DA67C9AF73282905030B41E8386C3F620348B879A23C1744211C7A9A2FA301C10829A62C12C3CBE82C171AC8374D1C9DA4BD6E3BD78B1638CB5EF4342003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_154871_12713</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
@@ -630,61 +614,56 @@
             <icon filename="table.gif" size="16" type="menu">47494638396110001000C40000000000FFFFFFCFCFD4CCCCD1C9C9CEC1C1C6BEBEC3B4B4B9E5E5EAE3E3E8E1E1E6DCDCE1DADADFD7D7DCB8B9BEB6B7BCB1B2B7AFB0B5ADAEB3ACADB2D4D5DAD1D2D7C6C7CCC3C4C9BBBCC1DEDFE47172764D4D4DFFFFFF00000000000000000021F9040100001C002C0000000010001000000566E0268E64296A68AAAAE7EAA2665C2289926D4C4355DB405817512DB3D8E82A82CDEF5210D9168CCD4E30D8000B06997603D56DA8BF0D16E310E576BDE5C6407E888EC965B37DD8CA90BE0D93BD791C2011226016626C657F1112223E406B6D1B801213762621003B</icon>
             <actions>
                 <custom description="Table" id="IDaction_1238402999909_219581_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257458_914064_3534"/>
                     <buttonicon filename="table.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCFCFD4CCCCD1C9C9CEC1C1C6BEBEC3B4B4B9E5E5EAE3E3E8E1E1E6DCDCE1DADADFD7D7DCB8B9BEB6B7BCB1B2B7AFB0B5ADAEB3ACADB2D4D5DAD1D2D7C6C7CCC3C4C9BBBCC1DEDFE47172764D4D4DFFFFFF00000000000000000021F9040100001C002C0000000010001000000566E0268E64296A68AAAAE7EAA2665C2289926D4C4355DB405817512DB3D8E82A82CDEF5210D9168CCD4E30D8000B06997603D56DA8BF0D16E310E576BDE5C6407E888EC965B37DD8CA90BE0D93BD791C2011226016626C657F1112223E406B6D1B801213762621003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_809163_12714</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
                 <custom description="Tree" id="IDaction_1238403094199_945749_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257252_425640_3251"/>
                     <buttonicon filename="tree.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCECED3C9C9CEC7C7CCC2C2C7BDBDC2E9E9EEE7E7ECE5E5EAE4E4E9E2E2E7E0E0E5DEDEE3DCDCE1DADADFD8D8DDD3D3D8B8B9BEB6B7BCB4B5BAB2B3B8B0B1B6AEAFB4D5D6DBD0D1D6CBCCD1C4C5CABFC0C5BABBC04D4D4DFFFFFF21F9040100001F002C0000000010001000000573A0278E64292289B2308DF3405894099A988CED1BCFDA202A9EC361B4A30D08A24550389419091B116329F4644A0551C3F4DC14382297A7D8837E0DA297C759F6720C1D11CC3A32BF3B1251CC23588EE012132232234C43781314223C3E861E791E15224F26891516226D678814971726A02421003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_152618_12715</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Separator" id="IDaction_1238402935111_5924_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Separator" id="IDaction_1238402935111_5924_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257473_881186_3582"/>
                     <buttonicon filename="separator.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCDCDD2C9C9CEBABABFE9E9EEE7E7ECE5E5EAE2E2E7DFDFE4DCDCE1D5D5DAD1D1D6B6B7BCB3B4B9B0B1B6ADAEB3ABACB1A9AAAFC5C6CBC1C2C7BDBEC3D8D9DE7172764D4D4DFFFFFF00000000000000000000000000000000000021F90401000019002C000000001000100000055A609661646992A28815AC712089622D583AB257AE5F4C9DAE2E986CC110F854869D4E30388E5EB1597130719EAE4E9B568BEDFA3052E684522134AC4431D9ECB03294BA87555D6E381E10EB009E8B58C77577101112565E281921003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_562349_12716</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Slider" id="IDaction_1238402964174_138332_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Slider" id="IDaction_1238402964174_138332_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257496_29715_3647"/>
                     <buttonicon filename="slider.gif" size="32" type="toolbar">47494638396110001000A20000000000FFFFFFE9E9EEA9AAAF4D4D4DFFFFFF00000000000021F90401000005002C000000001000100000032958BADCFE30CA48AABDB88A2DC8201BC8695DF78565076A9EB8BE681B876278A674A65753EFFF406002003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_593998_12717</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Progress Bar" id="IDaction_1238402870921_500627_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Progress Bar" id="IDaction_1238402870921_500627_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257441_594762_3437"/>
                     <buttonicon filename="progress_bar.gif" size="32" type="toolbar">47494638396110001000F70000000000FFFFFFE9E9EEA9AAAF7172764D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90401000000002C000000001000100000084A0001081C48B0A0C18308132A4C58A0A1C3871007141040B1A2C500180B48B4C85100C6001A350E184992E4C7900452AA5C7952E2CA97045A8A2C595226C49B0E69EAD4B9B0A7CF9E0101003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_361188_12718</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Menu Bar" id="IDaction_1238403130909_542123_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Menu Bar" id="IDaction_1238403130909_542123_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257501_25439_3673"/>
                     <buttonicon filename="menu_bar.gif" size="32" type="toolbar">47494638396110001000C40000000000FFFFFFCECED3C9C9CEE9E9EEE7E7ECE4E4E9E0E0E5DCDCE1D8D8DDD3D3D8BABBC0B6B7BCB2B3B8AEAFB4ABACB1A9AAAFC4C5CABFC0C54D4D4DFFFFFF00000000000000000000000000000000000000000000000000000000000000000021F90401000014002C0000000010001000000554E0248E64294268AAAA665B12702C4FB148D8747EEFB6ECD3309710082B180E8884423088487A042352C9742E7AD2E4B22959306C592AD7DB1085B75646C3213A6AAB5DB5E3219AA2E3EB0744F41ECBF57B432621003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
                             <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_421276_12719</propertyManagerID>
                                 <mdElement elementClass="OBJECT_LIST_PROPERTY">
                                     <propertyID>Menus</propertyID>
                                     <propertyGroup>_16_0_217c04e1_1237199703932_543843_231</propertyGroup>
@@ -719,13 +698,12 @@
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
-                <custom description="Scroll Bar" id="IDaction_1238402900809_213387_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Class">
+                <custom description="Scroll Bar" id="IDaction_1238402900809_213387_0" listAsElement="false" type="com.nomagic.uml2.ext.magicdraw.components.mdbasiccomponents.Component">
+                    <stereotype id="_17_0_4_1_132c03d3_1380937257458_749055_3527"/>
                     <buttonicon filename="scroll_bar.gif" size="32" type="toolbar">47494638396110001000A20000000000FFFFFFE9E9EEA9AAAF4D4D4DFFFFFF00000000000021F90401000005002C000000001000100000032858BADCFE30CA48AABDB88ABDC9F803C169825882E128921E6896668CBEE438AB595E4D7CEFFFBF04003B</buttonicon>
                     <defaults>
                         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
-                            <mdElement elementClass="PropertyManager">
-                                <propertyManagerID>_16_6beta_8f90291_1252669033422_270241_12720</propertyManagerID>
-                            </mdElement>
+                            <mdElement elementClass="PropertyManager"/>
                         </PropertyVisitorAcceptor>
                     </defaults>
                 </custom>
@@ -742,7 +720,7 @@
         <root id="IFML-Profile"/>
     </module>
     <module location="C:\Program Files\Cameo Enterprise Architecture\profiles\ifml\IFML DSL Customizations.mdzip" name="IFML DSL Customizations.mdzip">
-        <root id="_17_0_4_1_132c03d3_1380839347969_93414_3685"/>
+        <root id="4b28da0e-3fc4-4b19-927b-74a0ac086a3b"/>
     </module>
     <module location="C:\Program Files\Cameo Enterprise Architecture\profiles\UML_Standard_Profile.mdzip" name="UML_Standard_Profile.mdzip">
         <root id="magicdraw_uml_standard_profile_v_0001"/>
@@ -753,7 +731,6 @@
     <elementstyle name="Component">
         <PropertyVisitorAcceptor xmlns:xmi="http://www.omg.org/spec/XMI/20110701">
             <mdElement elementClass="PropertyManager">
-                <propertyManagerID>_17_0_4_1_132c03d3_1380988042450_182771_4179</propertyManagerID>
                 <mdElement elementClass="BooleanProperty">
                     <propertyID>SUPPRESS_CLASS_ATTRIBUTES</propertyID>
                     <propertyGroup>ATTRIBUTES</propertyGroup>
@@ -812,229 +789,104 @@
         <path action="ADD_PORT"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_16_0_217c04e1_1237199703932_543843_231" name="MenuBar"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257458_914064_3534" name="Table"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225975215302_325875_2164" name="ScrollBar"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257263_171440_3304" name="ToolBar"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974991146_566471_1575" name="List"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257496_29715_3647" name="Slider"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225975135724_631996_2043" name="CheckBox"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257340_467026_3357" name="Password Field"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974991412_417017_1623" name="Tree"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257449_301996_3465" name="TextField"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974329615_467752_396" name="Label"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257457_76620_3501" name="TextArea"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974989709_169161_1287" name="TabbedPane"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257452_91715_3475" name="ComboBox"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974990865_3841_1527" name="ComboBox"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257519_279060_3753" name="Hyperlink"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225975215302_424967_2163" name="Separator"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257473_881186_3582" name="Separator"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_16_0_8f90291_1226333658930_538281_247" name="Frame"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257473_206986_3594" name="Spinner"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974991677_479701_1671" name="ScrollPane"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257252_425640_3251" name="Tree"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225975134849_825356_1899" name="RadioButton"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257501_25439_3673" name="MenuBar"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225975135146_741325_1947" name="Button"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257257_254078_3262" name="Label"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_16_0_217c04e1_1237272823023_77754_230" name="TextArea"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257457_175098_3503" name="Cell"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974714255_320051_697" name="TextField"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257458_749055_3527" name="ScrollBar"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974983865_903333_1143" name="Spinner"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257449_474623_3459" name="ScrollPane"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974989927_642070_1335" name="Table"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257516_158777_3745" name="Radio Button"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974990162_470286_1383" name="Panel"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257473_328839_3596" name="Frame"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225975215302_250382_2166" name="ProgressBar"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257501_363792_3664" name="GroupBox"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974762865_185841_884" name="Hyperlink"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257262_637573_3291" name="Button"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225975215302_507545_2165" name="Slider"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257340_426444_3360" name="CheckBox"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_16_0_217c04e1_1235123317281_173652_230" name="Cell"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257441_594762_3437" name="ProgressBar"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974990693_802788_1479" name="GroupBox"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257340_293838_3351" name="TabbedPane"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_16_0_217c04e1_1237458816788_997008_230" name="ToolBar"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257514_370342_3723" name="List"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
     <manipulators>
-        <stereotype id="_15_5_8f90291_1225974761490_453495_788" name="PasswordField"/>
-        <path action="ADD_NOTE_ANCHOR">
-            <target>ADD_NOTE</target>
-            <target>ADD_HTML_NOTE</target>
-            <target>ADD_COMMENT</target>
-            <target>ADD_HTML_COMMENT</target>
-        </path>
+        <stereotype id="_17_0_4_1_132c03d3_1380937257339_509037_3348" name="Panel"/>
+        <path action="ADD_NOTE_ANCHOR"/>
     </manipulators>
 </diagram>
 
