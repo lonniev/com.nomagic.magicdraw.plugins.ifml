@@ -143,6 +143,10 @@
             <fileset dir="${src}/profiles"/>
         </copy>
 
+        <copy todir="${dist}/data">
+            <fileset dir="${src}/data"/>
+        </copy>
+
         <zip destfile="magicdraw-plugins-ifml-${DSTAMP}-${TSTAMP}.zip" basedir="${dist}"/>
 
     </target>
@@ -167,6 +171,10 @@
 
         <copy todir="${dist}/profiles">
             <fileset dir="${src}/profiles"/>
+        </copy>
+
+        <copy todir="${dist}/data">
+            <fileset dir="${src}/data"/>
         </copy>
 
         <zip destfile="magicdraw-plugins-ifml-${DSTAMP}-${TSTAMP}.zip" basedir="${dist}"/>

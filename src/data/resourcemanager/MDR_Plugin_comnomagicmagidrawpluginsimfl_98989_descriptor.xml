@@ -39,6 +39,9 @@
         <file from="profiles/ifml/IFML Widgets Profile.mdzip"
               to="profiles/ifml/IFML Widgets Profile.mdzip"/>
 
+        <file from="data/defaults/data/diagrams/IFML Wireframe Diagram/descriptor.xml"
+              to="data/defaults/data/diagrams/IFML Wireframe Diagram/descriptor.xml"/>
+
     </installation>
 </resourceDescriptor>
 
