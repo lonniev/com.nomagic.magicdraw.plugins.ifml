@@ -30,6 +30,15 @@
         <file from="profiles/ifml/IFML-Metamodel.mdzip"
               to="profiles/ifml/IFML-Metamodel.mdzip"/>
 
+        <file from="profiles/ifml/IFML DSL Customizations.mdzip"
+              to="profiles/ifml/IFML DSL Customizations.mdzip"/>
+
+        <file from="profiles/ifml/IFML Widgets Customizations.mdzip"
+              to="profiles/ifml/IFML Widgets Customizations.mdzip"/>
+
+        <file from="profiles/ifml/IFML Widgets Profile.mdzip"
+              to="profiles/ifml/IFML Widgets Profile.mdzip"/>
+
     </installation>
 </resourceDescriptor>
 
