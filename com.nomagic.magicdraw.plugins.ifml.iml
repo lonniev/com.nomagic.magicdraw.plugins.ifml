@@ -13,10 +13,9 @@
     <orderEntry type="library" name="CAE-patch" level="application" />
     <orderEntry type="library" name="CAE-webservice" level="application" />
     <orderEntry type="library" name="Cameo-17.0.4-rest" level="application" />
-    <orderEntry type="library" name="guava-14.0.1" level="project" />
     <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="guava-14.0.1" level="project" />
+    <orderEntry type="library" name="jide-grids" level="project" />
   </component>
 </module>
 

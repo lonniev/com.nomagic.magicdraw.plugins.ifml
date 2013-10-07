@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jide-grids">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jide-grids.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
