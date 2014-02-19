@@ -6,7 +6,8 @@
         name="Cameo MagicDraw IFML Plugin"
         version="0.1"
         provider-name="No Magic"
-        class="com.nomagic.magicdraw.plugins.ifml.MagicDrawIfmlPlugin">
+        class="com.nomagic.magicdraw.plugins.ifml.MagicDrawIfmlPlugin"
+        ownClassloader="true">
 
     <requires>
         <api version="1.0"/>

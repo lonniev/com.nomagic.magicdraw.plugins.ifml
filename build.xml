@@ -45,6 +45,7 @@
                 <include name="md_common_api.jar"/>
                 <include name="md_foundation_1.0.jar"/>
                 <include name="md.jar"/>
+                <include name="jide-grids.jar"/>
                 <include name="org.eclipse.emf.ecore_2.7.0.v20110513-1719.jar"/>
                 <include name="org.eclipse.emf.common_2.7.0.v20110513-1719.jar"/>
                 <include name="javax_jmi-1_0-fr.jar"/>
@@ -89,6 +90,7 @@
                 <include name="md_common_api.jar"/>
                 <include name="md_foundation_1.0.jar"/>
                 <include name="md.jar"/>
+                <include name="jide-grids.jar"/>
                 <include name="org.eclipse.emf.ecore_2.7.0.v20110513-1719.jar"/>
                 <include name="org.eclipse.emf.common_2.7.0.v20110513-1719.jar"/>
                 <include name="javax_jmi-1_0-fr.jar"/>
